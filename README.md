@@ -2,26 +2,9 @@
 
 **Criado por Lumí Studios**
 
-## 📋 Índice
-
-1. [Visão Geral](#visao-geral)
-2. [Instalação](#instalacao)
-3. [Configuração de Framework](#configuracao-de-framework)
-4. [Sistema de Pagamento](#sistema-de-pagamento)
-5. [Configurações Disponíveis](#configuracoes-disponiveis)
-6. [Jogos Disponíveis](#jogos-disponiveis)
-7. [Personalização de Pagamentos](#personalizacao-de-pagamentos)
-8. [Suporte a Frameworks](#suporte-a-frameworks)
-9. [Sistema de Society](#sistema-de-society)
-10. [Inventário](#inventario)
-11. [Mapas Suportados](#mapas-suportados)
-12. [Outras Configurações](#outras-configuracoes)
-13. [Troubleshooting](#troubleshooting)
-14. [Notas Finais](#notas-finais)
-
 ---
 
-## 🎰 Visão Geral {#visao-geral}
+## 🎰 Visão Geral
 
 O **rcore_casino** é um script completo de cassino para FiveM com múltiplos jogos, sistema de fichas, VIP, sociedade e muito mais. Este script suporta ESX, QBCore, Standalone e Custom frameworks.
 
@@ -40,7 +23,7 @@ O **rcore_casino** é um script completo de cassino para FiveM com múltiplos jo
 
 ---
 
-## 🚀 Instalação {#instalacao}
+## 🚀 Instalação
 
 ### Requisitos
 
@@ -66,7 +49,7 @@ O **rcore_casino** é um script completo de cassino para FiveM com múltiplos jo
 
 ---
 
-## ⚙️ Configuração de Framework {#configuracao-de-framework}
+## ⚙️ Configuração de Framework
 
 ### Framework Ativo
 
@@ -116,7 +99,7 @@ end
 
 ---
 
-## 💰 Sistema de Pagamento {#sistema-de-pagamento}
+## 💰 Sistema de Pagamento
 
 ### Como Funciona
 
@@ -172,7 +155,7 @@ Config.DailyWidthdrawLimit = 0 -- 0 = sem limite, ou valor máximo por dia
 
 ---
 
-## 🎮 Configurações Disponíveis {#configuracoes-disponiveis}
+## 🎮 Configurações Disponíveis
 
 ### Configurações Gerais
 
@@ -314,7 +297,7 @@ Config.BarShowSnacks = true -- Mostrar lanches no menu
 
 ---
 
-## 🎲 Jogos Disponíveis {#jogos-disponiveis}
+## 🎲 Jogos Disponíveis
 
 ### 1. Slots (Caça-Níqueis)
 - Múltiplas máquinas temáticas
@@ -357,7 +340,7 @@ Config.BarShowSnacks = true -- Mostrar lanches no menu
 
 ---
 
-## 💳 Personalização de Pagamentos {#personalizacao-de-pagamentos}
+## 💳 Personalização de Pagamentos
 
 ### Modificar Pagamentos dos Jogos
 
@@ -419,7 +402,7 @@ Config.SocietyLimitPayoutPercentage = 35 -- % reduzido se abaixo do limite
 
 ---
 
-## 🔧 Suporte a Frameworks {#suporte-a-frameworks}
+## 🔧 Suporte a Frameworks
 
 ### Frameworks Suportados
 
@@ -440,7 +423,7 @@ Para usar com Creative:
 
 ---
 
-## 🏦 Sistema de Society {#sistema-de-society}
+## 🏦 Sistema de Society
 
 ### Sistemas Suportados
 
@@ -474,7 +457,7 @@ Config.SocietyName = "society_casino" -- Nome da conta
 
 ---
 
-## 📦 Inventário {#inventario}
+## 📦 Inventário
 
 ### Sistemas Suportados
 
@@ -503,7 +486,7 @@ Config.MoneyInventoryItemName = nil -- Item de dinheiro (nil = usa framework)
 
 ---
 
-## 🗺️ Mapas Suportados {#mapas-suportados}
+## 🗺️ Mapas Suportados
 
 ```lua
 Config.MapType = 5 -- Escolha o tipo:
@@ -530,7 +513,7 @@ Config.MapType = 5 -- Escolha o tipo:
 
 ---
 
-## 🎯 Outras Configurações {#outras-configuracoes}
+## 🎯 Outras Configurações
 
 ### Horários de Funcionamento
 
@@ -617,7 +600,7 @@ GameStates = {{
 
 ---
 
-## 🐛 Troubleshooting {#troubleshooting}
+## 🐛 Troubleshooting
 
 ### Problemas Comuns
 
@@ -644,7 +627,7 @@ GameStates = {{
 
 ---
 
-## 📝 Notas Finais {#notas-finais}
+## 📝 Notas Finais
 
 - **Versão do Script:** 1.8.1
 - **Game Build Mínimo:** 2060
