@@ -4,22 +4,24 @@
 
 ## 📋 Índice
 
-1. [Visão Geral](#visão-geral)
-2. [Instalação](#instalação)
-3. [Configuração de Framework](#configuração-de-framework)
+1. [Visão Geral](#visao-geral)
+2. [Instalação](#instalacao)
+3. [Configuração de Framework](#configuracao-de-framework)
 4. [Sistema de Pagamento](#sistema-de-pagamento)
-5. [Configurações Disponíveis](#configurações-disponíveis)
-6. [Jogos Disponíveis](#jogos-disponíveis)
-7. [Personalização de Pagamentos](#personalização-de-pagamentos)
+5. [Configurações Disponíveis](#configuracoes-disponiveis)
+6. [Jogos Disponíveis](#jogos-disponiveis)
+7. [Personalização de Pagamentos](#personalizacao-de-pagamentos)
 8. [Suporte a Frameworks](#suporte-a-frameworks)
 9. [Sistema de Society](#sistema-de-society)
-10. [Inventário](#inventário)
+10. [Inventário](#inventario)
 11. [Mapas Suportados](#mapas-suportados)
-12. [Troubleshooting](#troubleshooting)
+12. [Outras Configurações](#outras-configuracoes)
+13. [Troubleshooting](#troubleshooting)
+14. [Notas Finais](#notas-finais)
 
 ---
 
-## 🎰 Visão Geral
+## 🎰 Visão Geral {#visao-geral}
 
 O **rcore_casino** é um script completo de cassino para FiveM com múltiplos jogos, sistema de fichas, VIP, sociedade e muito mais. Este script suporta ESX, QBCore, Standalone e Custom frameworks.
 
@@ -38,11 +40,12 @@ O **rcore_casino** é um script completo de cassino para FiveM com múltiplos jo
 
 ---
 
-## 🚀 Instalação
+## 🚀 Instalação {#instalacao}
 
 ### Requisitos
 
 - FiveM Server
+- **Artefato versão 4752 ou mais recente** (obrigatório)
 - MySQL (mysql-async ou ghmattimysql)
 - Framework (ESX, QBCore ou Standalone)
 - rcore_casino_assets (obrigatório)
@@ -63,7 +66,7 @@ O **rcore_casino** é um script completo de cassino para FiveM com múltiplos jo
 
 ---
 
-## ⚙️ Configuração de Framework
+## ⚙️ Configuração de Framework {#configuracao-de-framework}
 
 ### Framework Ativo
 
@@ -113,7 +116,7 @@ end
 
 ---
 
-## 💰 Sistema de Pagamento
+## 💰 Sistema de Pagamento {#sistema-de-pagamento}
 
 ### Como Funciona
 
@@ -169,7 +172,7 @@ Config.DailyWidthdrawLimit = 0 -- 0 = sem limite, ou valor máximo por dia
 
 ---
 
-## 🎮 Configurações Disponíveis
+## 🎮 Configurações Disponíveis {#configuracoes-disponiveis}
 
 ### Configurações Gerais
 
@@ -311,7 +314,7 @@ Config.BarShowSnacks = true -- Mostrar lanches no menu
 
 ---
 
-## 🎲 Jogos Disponíveis
+## 🎲 Jogos Disponíveis {#jogos-disponiveis}
 
 ### 1. Slots (Caça-Níqueis)
 - Múltiplas máquinas temáticas
@@ -354,7 +357,7 @@ Config.BarShowSnacks = true -- Mostrar lanches no menu
 
 ---
 
-## 💳 Personalização de Pagamentos
+## 💳 Personalização de Pagamentos {#personalizacao-de-pagamentos}
 
 ### Modificar Pagamentos dos Jogos
 
@@ -416,7 +419,7 @@ Config.SocietyLimitPayoutPercentage = 35 -- % reduzido se abaixo do limite
 
 ---
 
-## 🔧 Suporte a Frameworks
+## 🔧 Suporte a Frameworks {#suporte-a-frameworks}
 
 ### Frameworks Suportados
 
@@ -437,7 +440,7 @@ Para usar com Creative:
 
 ---
 
-## 🏦 Sistema de Society
+## 🏦 Sistema de Society {#sistema-de-society}
 
 ### Sistemas Suportados
 
@@ -471,7 +474,7 @@ Config.SocietyName = "society_casino" -- Nome da conta
 
 ---
 
-## 📦 Inventário
+## 📦 Inventário {#inventario}
 
 ### Sistemas Suportados
 
@@ -500,7 +503,7 @@ Config.MoneyInventoryItemName = nil -- Item de dinheiro (nil = usa framework)
 
 ---
 
-## 🗺️ Mapas Suportados
+## 🗺️ Mapas Suportados {#mapas-suportados}
 
 ```lua
 Config.MapType = 5 -- Escolha o tipo:
@@ -527,7 +530,7 @@ Config.MapType = 5 -- Escolha o tipo:
 
 ---
 
-## 🎯 Outras Configurações
+## 🎯 Outras Configurações {#outras-configuracoes}
 
 ### Horários de Funcionamento
 
@@ -614,7 +617,7 @@ GameStates = {{
 
 ---
 
-## 🐛 Troubleshooting
+## 🐛 Troubleshooting {#troubleshooting}
 
 ### Problemas Comuns
 
@@ -641,10 +644,11 @@ GameStates = {{
 
 ---
 
-## 📝 Notas Finais
+## 📝 Notas Finais {#notas-finais}
 
 - **Versão do Script:** 1.8.1
 - **Game Build Mínimo:** 2060
+- **Artefato Mínimo:** Versão 4752 ou mais recente (obrigatório)
 - **Requer OneSync:** Sim
 - **Requer MySQL:** Sim (mysql-async ou ghmattimysql)
 
